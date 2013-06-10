@@ -16,7 +16,7 @@ getPostInfo=function(theid)
    {
        Author=xmlValue(getNodeSet(doc, "//item/dc:creator")[[i]])
        pubDate=as.POSIXct(xmlValue(getNodeSet(doc, "//item/pubDate")[[i]]), format="%a, %d %b %Y %H:%M:%S ")
-       write.table(data.frame(Author, ItemID=theid, IfPost=(i==len), pubDate), file="cosdata.txt", row.names=FALSE, col.names=FALSE, append=TRUE)
+       write.table(data.frame(Author, ItemID=theid, IfPost=(i==len), pubDate), file="../cosdata.txt", row.names=FALSE, col.names=FALSE, append=TRUE)
    }
   rm(myfile)
   rm(doc)
@@ -24,11 +24,14 @@ getPostInfo=function(theid)
   gc(verbose=FALSE)
 }
 
-myindex = read.table("ids_sort.txt")
+myindex = read.table("ids.txt")
 mylen = length(myindex$V1)
+mypages = scan(file="pages.txt")
 
 for(j in 1:mylen )
 {
    print(j)
    getPostInfo(myindex$V1[j])
 }
+
+
