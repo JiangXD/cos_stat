@@ -25,5 +25,9 @@
 
 * 文件 [cosdata.txt] (https://github.com/JiangXD/cos_stat/blob/master/cosdata.txt) 含所有自论坛创建以来的数据，并保持随时更新。大家可以进一步统计。
 
+* 文件 cosdata-mysql.csv 是直接从论坛数据库导出的文件，格式与 cosdata.txt 相同，为保护隐私第一列换成了论坛UID。但是，你懂的。
+
+* 数据第一列为用户ID，第二列表示是否是楼主（即是新帖或是回复），第三列是发表时间。
+
 * 统计采用knitr包驱动更新，感谢益辉。
 
