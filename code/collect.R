@@ -26,7 +26,6 @@ getPostInfo=function(theid)
 
 myindex = read.table("ids.txt")
 mylen = length(myindex$V1)
-mypages = scan(file="pages.txt")
 
 for(j in 1:mylen )
 {
