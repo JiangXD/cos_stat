@@ -11,5 +11,5 @@ echo
 
 git add ../cosdata.txt
 git add *.txt
-git commit -m "$(date)"
+git commit -m "Updated to $(date +%Y-%m-%d)"
 git push origin master
