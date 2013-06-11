@@ -1,0 +1,18 @@
+# Cos.Name 定期统计
+--------------------------------
+
+* 最近30天（`r as.character(today)`至`r as.character(today-30)`）论坛上共有`r mypersons`人参与讨论，共发表了`r myposts`篇文字（其中大概包括`r myreplies[2]`篇主题和`r myreplies[1]`篇回复）。
+
+
+* 其中发帖最多的20人及发帖数是：
+
+
+```{r echo=FALSE}
+mytop
+```
+
+* 他们所发表的帖子数目是`r mytopposts`篇，占了总数的`r as.integer(myratio)`%的比重。
+
+* 所有的数据统计来自 cosdata.txt ，并保持随时更新。大家可以进一步统计。
+
+* README文件采用knitr包驱动更新，感谢益辉。
