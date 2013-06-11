@@ -13,6 +13,7 @@ mytop
 
 * 他们所发表的帖子数目是`r mytopposts`篇，占了总数的`r as.integer(myratio)`%的比重。
 
-* 所有的数据统计来自 cosdata.txt ，并保持随时更新。大家可以进一步统计。
+* 文件 [cosdata.txt] (https://github.com/JiangXD/cos_stat/blob/master/cosdata.txt) 含所有自论坛创建以来的数据，并保持随时更新。大家可以进一步统计。
 
 * 统计采用knitr包驱动更新，感谢益辉。
+
