@@ -1,7 +1,7 @@
 # Cos.Name 定期统计
 --------------------------------
 
-* 最近30天（`r as.character(today)`至`r as.character(today-31)`）论坛上共有`r mypersons`人参与讨论，共发表了`r myposts`篇文字（其中大概包括`r myreplies[2]`篇主题和`r myreplies[1]`篇回复）。
+* 最近30天（`r as.character(today)`至`r as.character(today-31)`）论坛上共有`r mypersons`人参与讨论，共发表了`r myposts`篇文字（其中包括`r myreplies[2]`篇主题和`r myreplies[1]`篇回复）。
 
 
 * 其中发帖最多的20人的ID及发帖数是：
