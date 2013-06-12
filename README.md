@@ -1,33 +1,31 @@
 # Cos.Name 定期统计
 --------------------------------
 
-* 最近30天（2013-06-11至2013-05-12）论坛上共有340人参与讨论，共发表了1479篇文字（其中大概包括345篇主题和1134篇回复）。
+* 最近30天（2013-06-11至2013-05-12）论坛上共有416人参与讨论，共发表了1752篇文字（其中大概包括362篇主题和1390篇回复）。
 
 
-* 其中发帖最多的20人及发帖数是：
+* 其中发帖最多的20人的ID及发帖数是：
 
 
 
 ```
 ## 
-## superdesolator         lyxmoo           肖楠    ywh19860616    zggjtsgzczh 
-##             92             70             43             38             33 
-##         ypchen         谢益辉     PuddingNnn         helend     danbaidong 
-##             31             30             25             22             17 
-## shenzhiyoushou         刘思喆    warrenzhang      cloud wei      sonicworm 
-##             17             17             16             15             15 
-##      suckbunny        zjgslxh    bpdszxpddks        lyyl213        oicuicu 
-##             15             15             14             14             14
+## 377380  95032 107675 109572 380147 375409     20      1 380097 378520 
+##     95     79     46     39     38     34     32     30     30     25 
+## 379083 372053 375194 380257 102646    336 374290 376892 380287  13526 
+##     22     20     19     18     17     17     16     16     16     15
 ```
 
 
-* 他们所发表的帖子数目是553篇，占了总数的37%的比重。
+* 他们所发表的帖子数目是624篇，占了总数的35%的比重。
 
-* 文件 [cosdata.txt] (https://github.com/JiangXD/cos_stat/blob/master/cosdata.txt) 含所有自论坛创建以来的数据，并保持随时更新。大家可以进一步统计。
+* 文件 [cosdata.txt] (https://github.com/JiangXD/cos_stat/blob/master/cosdata.txt) 含所有自论坛创建以来的数据。(这个是自己从页面抓的，不尽准确，分析请用cosdata-mysql.csv)
 
-* 文件 cosdata-mysql.csv 是直接从论坛数据库导出的文件，格式与 cosdata.txt 相同，为保护隐私第一列换成了论坛UID。但是，你懂的。
+* 文件 [cosdata-mysql.csv](https://github.com/JiangXD/cos_stat/blob/master/cosdata-mysql.csv) 是直接从论坛数据库导出的文件，格式与 cosdata.txt 相同
+，为保护隐私第一列换成了论坛UID。但是，你懂的。
 
-* 数据第一列为用户ID，第二列表示是否是楼主（即是新帖或是回复），第三列是发表时间。
+* 数据第一列为用户ID，第二列表示是否是楼主（即是新帖或是回复），第三列是发表时
+间。
 
 * 统计采用knitr包驱动更新，感谢益辉。
 
