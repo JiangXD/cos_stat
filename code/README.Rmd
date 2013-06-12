@@ -15,10 +15,12 @@ mytop
 
 * 文件 [cosdata.txt] (https://github.com/JiangXD/cos_stat/blob/master/cosdata.txt) 含所有自论坛创建以来的数据。(这个是自己从页面抓的，不尽准确，分析请用cosdata-mysql.csv)
 
-* 官方文件 [cosdata-mysql.csv](https://github.com/JiangXD/cos_stat/blob/master/cosdata-mysql.csv) 是直接从论坛数据库导出的文件，格式与 cosdata.txt 相同
+* 官方文件 [cosdata-mysql.csv](https://github.com/JiangXD/cos_stat/blob/master/cosdata-mysql.csv) 是直接从论坛数据库导出的文件，格式与 cosdata.txt 类似
 ，为保护隐私第一列换成了论坛UID。但是，你懂的。
 
-* 数据第一列为用户ID，第二列表示是否是楼主（即是新帖或是回复），第三列是发表时间。
+* cosdata-mysql.csv中，第一列`poster_id`为用户ID，第二列`topic_id`是主题的ID，第三列`post_id`是帖子的ID，
+第四列`is_topic_poster`表示是否是楼主（即是新帖或是回复），第五列`post_time`是帖子发表时间。
+主题（topic）与帖子（post）的区别在于，主题是对一个新帖及其回复的总称，而帖子可能是新帖，也可能是回复，这可以通过`is_topic_poster`来判断。可以确定的是，`is_topic_poster`为`TRUE`当且仅当`topic_id == post_id`。
 
 * 统计采用官方数据，并用knitr包驱动更新，感谢益辉。
 
