@@ -15,7 +15,7 @@ mytop
 
 * 每个人单回贴/发帖情况如下图，离群点标记其ID：
 
-```{r, echo=FALSE, warning=FALSE, out.width=10, out.height=5}
+```{r, echo=FALSE, warning=FALSE, fig.width=1200, fig.height=800}
 ggplot(mysummary)+ geom_point(aes(x=replies, y=topics), shape=1) +  geom_text(aes(x=replies, y=topics, label=ids), vjust=-0.4,color="blue", data=subset(mysummary, topics>5 | replies>30))+xlab("回贴数")+ylab("发贴数")
 ```
 
