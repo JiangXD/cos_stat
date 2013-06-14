@@ -21,7 +21,7 @@
 
 * 每个人单回贴/发帖情况如下图，离群点标记其ID：
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+<img src="figure/unnamed-chunk-2.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" width="10" height="5" />
 
 
 * 文件 [cosdata.txt] (https://github.com/JiangXD/cos_stat/blob/master/cosdata.txt) 含所有自论坛创建以来的数据。(这个是自己从页面抓的，不尽准确，分析请用cosdata-mysql.csv)
