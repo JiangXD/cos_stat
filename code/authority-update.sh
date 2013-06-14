@@ -2,6 +2,7 @@
 
 echo "Conducting analysis..."
 Rscript authority_analysis.R
+rm -r ../figure
 mv figure ../
 echo "Uploading..."
 git add ../README.md

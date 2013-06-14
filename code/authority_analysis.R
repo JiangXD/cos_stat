@@ -22,6 +22,5 @@ mysummary=data.frame(replies, topics, ids)
 
 
 knit("README.Rmd", output="../README.md")
-warnings()
 
-
+warning()
