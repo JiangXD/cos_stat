@@ -19,6 +19,282 @@
 
 * 他们所发表的帖子数目是624篇，占了总数的35%的比重。
 
+* 每个人单回贴/发帖情况如下图，离群点标记其ID：
+
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <e5>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <8f>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <91>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <e8>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <e6>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <95>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <b0>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <e5>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <9b>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <9e>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <e8>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <e6>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <95>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <b0>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <e5>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <8f>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <91>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <e8>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <e6>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <95>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <b0>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <e5>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <9b>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <9e>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <e8>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <e6>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <95>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <b0>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <e5>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <9b>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <9e>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <e8>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <e6>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <95>
+```
+
+```
+## Warning: conversion failure on '回贴数' in 'mbcsToSbcs': dot substituted
+## for <b0>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <e5>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <8f>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <91>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <e8>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <b4>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <e6>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <95>
+```
+
+```
+## Warning: conversion failure on '发贴数' in 'mbcsToSbcs': dot substituted
+## for <b0>
+```
+
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+
+
 * 文件 [cosdata.txt] (https://github.com/JiangXD/cos_stat/blob/master/cosdata.txt) 含所有自论坛创建以来的数据。(这个是自己从页面抓的，不尽准确，分析请用cosdata-mysql.csv)
 
 * 官方文件 [cosdata-mysql.csv](https://github.com/JiangXD/cos_stat/blob/master/cosdata-mysql.csv) 是直接从论坛数据库导出的文件，格式与 cosdata.txt 类似
