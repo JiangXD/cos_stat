@@ -1,5 +1,6 @@
 library("knitr")
 library("ggplot2")
+library("scales")
 
 mydata = read.csv("../cosdata-mysql.csv")
 #today = as.Date(format(Sys.time(),"%Y-%m-%d"))

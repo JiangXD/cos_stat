@@ -21,10 +21,7 @@
 
 * 每个人单回贴/发帖情况如下图，离群点标记其ID：
 
-
-```
-## Error: unused argument(s) (width = 0.5)
-```
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
 
 * 文件 [cosdata.txt] (https://github.com/JiangXD/cos_stat/blob/master/cosdata.txt) 含所有自论坛创建以来的数据。(这个是自己从页面抓的，不尽准确，分析请用cosdata-mysql.csv)

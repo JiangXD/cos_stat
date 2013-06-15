@@ -16,7 +16,7 @@ mytop
 * 每个人单回贴/发帖情况如下图，离群点标记其ID：
 
 ```{r, echo=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-ggplot(mysummary)+ geom_jitter(aes(x=replies, y=topics), shape=21, fill="blue", alpha=0.3, position=jitter(width=0.5)) +  geom_text(aes(x=replies, y=topics, label=ids), vjust=-0.4, size=4, color="blue", data=subset(mysummary, topics>5 | replies>30))+xlab("回贴数")+ylab("发贴数")
+ggplot(mysummary)+ geom_jitter(aes(x=replies, y=topics), shape=21, colour=alpha("blue",0.05), fill=alpha("purple",0.2)) +  geom_text(aes(x=replies, y=topics, label=ids), vjust=-0.4, size=4, color="blue", data=subset(mysummary, topics>5 | replies>30))+xlab("回贴数")+ylab("发贴数")
 ```
 
 * 文件 [cosdata.txt] (https://github.com/JiangXD/cos_stat/blob/master/cosdata.txt) 含所有自论坛创建以来的数据。(这个是自己从页面抓的，不尽准确，分析请用cosdata-mysql.csv)
